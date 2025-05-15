@@ -1,0 +1,13 @@
+requests
+numpy
+pandas
+PyYAML
+matplotlib
+seaborn
+scikit-learn
+bs4
+nltk
+pymorphy3
+pymorphy3-dicts-ru 
+sentence-transformers
+scipy 

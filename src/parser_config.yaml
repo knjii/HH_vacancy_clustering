@@ -1,0 +1,14 @@
+cities:
+  - city_name: Moscow 
+    city_id: 1
+  - city_name: Saint-Petersburg
+    city_id: 2
+
+vacancies:
+ [
+    'BI Developer', 'Business Development Manager', 'Community Manager', 'Computer vision',
+    'Data Analyst', 'Data Engineer', 'Data Science', 'Data Scientist', 'ML Engineer',
+    'Machine Learning Engineer', 'ML OPS инженер', 'ML-разработчик', 'Machine Learning',
+    'Product Manager', 'Python Developer', 'Web Analyst', 'Аналитик данных',
+    'Бизнес-аналитик', 'Веб-аналитик', 'Системный аналитик', 'Финансовый аналитик'
+]
