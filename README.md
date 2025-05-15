@@ -9,10 +9,10 @@
 your-project-name/
 ├── .gitignore             
 ├── README.md              
-├── requirements.txt       #
+├── requirements.txt       
 │
 ├── data/                  
-│   └── processed_data/         # Обработанные данные, лежащие на Google Drive
+│   └── processed_data/        
 │       └── processed_vacancies_dataframe.parquet 
 │       └── tfidf_matrix_unigrams.npz           
 │       └── tfidf_vectorizer_unigrams.pkl      
@@ -20,13 +20,13 @@ your-project-name/
 │       └── sbert_embeddings_mpnet_base.npy     
 │       └── # ... и другие сохраненные артефакты
 │
-├── notebooks/             # Папка для Jupyter ноутбуков
+├── notebooks/            
 │   └── HH_clustering.ipynb  
 │
 ├── src/                   
-│   ── parser/            # Модуль для парсера вакансий
+│   ── parser/            
 │      ├── __init__.py
-│      ├── main_parser.py # Скрипт для запуска парсера
+│      ├── main_parser.py 
 │      ├── parser_utils.py
 │      └── parser_config.yaml
 
@@ -36,8 +36,8 @@ your-project-name/
 
 1.  **Клонируйте репозиторий:**
     ```bash
-    git clone https://github.com/ТВОЙ_ЛОГИН/ИМЯ_РЕПОЗИТОРИЯ.git
-    cd ИМЯ_РЕПОЗИТОРИЯ
+    git clone https://github.com/knjii/HH_vacancy_clustering
+    cd HH_vacancy_clustering
     ```
 
 2.  **Скачайте файлы для быстрой установки:**
@@ -57,12 +57,11 @@ your-project-name/
     ```
 
 4.  **Парсинг данных (если необходимо собрать свежие данные):**
-    *   Настройте файл `src/parser/parser_config.yaml` (укажите критерии поиска, города и т.д.).
+    *   Настройте файл `src/parser_config.yaml` (укажите критерии поиска, города и т.д.).
     *   Запустите парсер:
         ```bash
-        python src/parser/main_parser.py
+        python main.py
         ```
-    *   Собранные данные появятся в папке `data/raw/`.
 
 5.  **Анализ и кластеризация:**
     *   Запустите Jupyter Notebook или JupyterLab:
